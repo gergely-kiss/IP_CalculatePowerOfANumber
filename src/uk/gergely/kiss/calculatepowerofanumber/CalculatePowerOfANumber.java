@@ -25,7 +25,7 @@ public class CalculatePowerOfANumber {
 		}
 		return -1;
 	}
-
+//TODO isNegative grab the negative sing run the rec or it solution then  1/n or do nutting accordingly
 	public static double powerCalculate(double number, int power) throws Exception {
 		if (isDefault(number, power) != -1)
 			return isDefault(number, power);
